@@ -1,0 +1,6 @@
+----> Addition and substraction
+
+--> ADD reg/mem, reg/mem/imm
+--> SUB reg/mem, reg/mem/imm
+--> INC reg/mem ( increment by 1 )
+--> DEC reg/mem ( substract by 1 )

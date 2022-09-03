@@ -1,0 +1,30 @@
+----> MOV and LEA instructions
+
+--> MOV
+
+-> The most fundamental movement instruction is MOV.
+It takes two operands of the same size, and moves the
+data (copies it) from the source operand to the destination
+
+MOV dest, src
+
+!!! MOV does not change the Flags register. If both
+operands are the same register, it acts as a NOP
+
+--> LEA ( Load Effective Address )
+aka create a pointer / load an address
+ 
+-> The LEA instructions loads an address. If you have some,
+variable, you can load the address of it into a register
+and manipulate the data indirectly with the register as a
+pointer. LEA does not change any flags.
+
+LEA dest, src
+
+!!! LEA is actually an arithmetic instruction, it computes
+and SIB address
+
+	lea rax, myByte <- pointer to myByte
+	mov byte ptr [rax], 7 <- moves 7 to the address pointed by rax
+
+

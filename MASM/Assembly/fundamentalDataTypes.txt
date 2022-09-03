@@ -1,0 +1,23 @@
+-> integer
+	byte, word, dword, qword
+-> floating point
+	real4, real8, real10
+- simd pointers
+	xmmword, ymmword, zmmword
+
+-> ASM is not type safe. Signed vs Unsigned
+comes down to witch instructions you use.
+
+-> Data type ranges
+= byte: 8 bits wide
+= word: 16bits wide
+= dword: 32bits wide
+= qword: 64bits wide
+
+= real4: IEEE754 single precision float, 32bits wide
+= real8: IEEE754 double precision float, 64bits wide
+= real10: IEEE754 extended precision float, 80bits wide
+
+= Xmmword: 128bits
+= Ymmword: 256bits
+= Zmmword: 512bits

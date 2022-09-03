@@ -1,0 +1,10 @@
+----> x86 Registers
+
+-> Registers are volatile. They are the fastest
+memory available to the CPU, on the CPU die itself.
+
+-> The CPU reads data from other memories, performs
+calculations in its registers, adn writes the results
+back to the other memory. The other memory areas
+basically only allow reading and writing. All computation
+is performed with registers.

@@ -1,0 +1,16 @@
+--> Syntax for instructions:
+-> AND DEST, SRC
+-> AND mem/reg, mem/reg/imm
+-> OR mem/reg, mem/reg/imm
+-> NOT mem/reg
+-> XOR mem/reg, mem/reg/imm
+
+.code
+TestFunction proc
+	mov eax, 1001100010011b
+	mov ecx, 1001000010010b
+
+	or eax,ecx
+	ret
+TestFunction endp
+end
